@@ -1,6 +1,6 @@
 public class Mathey {
     public static int rand() {
-        return (int)(Math.random()*20.0) + 1;
+        return (int)(Math.random()*11) + 10;
     }
     public static int max(double a1, double b1) {
         return Math.max(a, b);

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MyMain {
 
     public static int rand() {
-        return (int) (Math.random()*20) + 1;
+        return (int) (Math.random()*11) + 10;
     }
     public static int max(int a, int b, int c) {
         return Math.max(a, Math.max(b, c));
